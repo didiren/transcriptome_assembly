@@ -1,0 +1,14 @@
+control:sample1_R1_L0001.fastq.gz
+control:sample1_R2_L0001.fastq.gz
+control:sample2_R1_L0001.fastq.gz
+control:sample2_R2_L0001.fastq.gz
+control:sample3_R1_L0001.fastq.gz
+control:sample3_R2_L0001.fastq.gz
+genome:/path/to/c.parasitica.genome.fa
+fastqc:/path/to/fastqc/
+trimmomatic:/path/to/trimmomatic/
+tophat:/path/to/tophat/
+bowtie2:/path/to/bowtie2/
+samtools:/path/to/samtools/
+cufflinks:/path/to/cufflinks/
+
