@@ -4,15 +4,12 @@ import os
 import sys
 #First obtain all input files and the path to using the softwares in Input.txt file so it is easier than I aske you to input one by one.
 control=[]
-treatment=[]
 
 inf=open('parameters.txt','r')
 for line in inf:
     line=line.strip()
     if 'control' in line:
         control.append(line[8:])
-    if 'treatment' in line:
-        treatment.append(line[10:])
     if 'genome' in line:
         genomepath=line[7:]
     if 'fastqc' in line:
